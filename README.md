@@ -6,6 +6,31 @@ Bienvenue dans le Magasin de l'Aventurier Épique ! Votre destination pour les �
 Concept du Projet
 Le Magasin de l'Aventurier Épique est une application web où les aventuriers peuvent explorer et acheter une vaste sélection d'articles magiques, d'armes légendaires, d'armures invincibles et de montures impressionnantes. L'objectif est de créer une expérience immersive qui transporte les utilisateurs dans un monde fantastique rempli de trésors et de dangers.
 
+
+# Pages du Projet
+
+Le projet comprendra plusieurs pages pour offrir aux utilisateurs une expérience de magasinage complète et immersive. Voici un aperçu des pages incluses :
+
+## Page d'Accueil
+
+La page d'accueil est la première chose que les utilisateurs verront lorsqu'ils visiteront le magasin de l'Aventurier Épique. Cette page présentera les ventes en tendances, mettant en évidence les produits les plus populaires du moment. Les utilisateurs pourront également utiliser les filtres de recherche pour affiner leur sélection par type d'article, prix, etc.
+
+## Pages de Vente par Catégorie
+
+Le magasin comprendra des pages dédiées à chaque catégorie de produits, y compris les potions magiques, les armes formidables, les armures éblouissantes et les montures majestueuses. Chaque page présentera une sélection soigneusement organisée d'articles de la catégorie correspondante, avec des descriptions détaillées, des images attrayantes et des informations sur les prix et les caractéristiques.
+
+## Page de Détail du Produit
+
+Lorsqu'un utilisateur clique sur un produit spécifique, il sera redirigé vers la page de détail du produit, où il trouvera des informations plus détaillées sur l'article sélectionné. Cette page inclura une image agrandie du produit, une description complète de ses caractéristiques et effets, ainsi que des détails sur le prix et les options d'achat.
+
+## Panier d'Achat
+
+Les utilisateurs auront la possibilité d'ajouter des articles à leur panier d'achat tout en naviguant dans le magasin. La page du panier d'achat affichera un résumé des articles sélectionnés, permettant aux utilisateurs de modifier les quantités, de supprimer des articles ou de procéder au paiement en toute simplicité.
+
+## Page de Paiement
+
+Une fois que les utilisateurs sont satisfaits de leur sélection, ils pourront passer à la page de paiement pour finaliser leur commande. Cette page sécurisée permettra aux utilisateurs de saisir leurs informations de paiement et de passer leur commande en toute sécurité, assurant une expérience d'achat fluide et sans tracas.
+
 ## Liste des Produits
 
 ### Potions Magiques (10)
