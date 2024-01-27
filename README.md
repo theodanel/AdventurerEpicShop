@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+Magasin de l'Aventurier Épique
+Bienvenue dans le Magasin de l'Aventurier Épique ! Votre destination pour les équipements magiques, les armes puissantes, les armures indestructibles et les montures majestueuses. Plongez dans un monde de fantaisie et de merveille où chaque produit est conçu pour vous aider à accomplir des exploits héroïques et à vivre des aventures inoubliables.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Concept du Projet
+Le Magasin de l'Aventurier Épique est une application web où les aventuriers peuvent explorer et acheter une vaste sélection d'articles magiques, d'armes légendaires, d'armures invincibles et de montures impressionnantes. L'objectif est de créer une expérience immersive qui transporte les utilisateurs dans un monde fantastique rempli de trésors et de dangers.
 
-## Available Scripts
+Liste des Produits
+Potions Magiques (10)
+Potion de Force Colossale :
 
-In the project directory, you can run:
+Effets : Augmente la force de l'utilisateur de 30 points pendant 15 minutes.
+Prix : 100 pièces d'or.
+Élixir de Sagesse Infinie :
 
-### `npm start`
+Effets : Augmente la sagesse de l'utilisateur de 20 points pendant 20 minutes.
+Prix : 150 pièces d'or.
+...
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Armures Époustouflantes (10)
+Armure du Paladon Sacré :
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Effets : Augmente la défense de l'utilisateur de 60 points.
+Prix : 500 pièces d'or.
+Armure de l'Assassin Furtif :
 
-### `npm test`
+Effets : Augmente la défense de l'utilisateur de 40 points et augmente l'agilité de 20 points.
+Prix : 450 pièces d'or.
+...
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Armes Formidables (10)
+Épée de la Fureur Draconique :
 
-### `npm run build`
+Effets : Augmente les dégâts de l'utilisateur de 50 points.
+Prix : 600 pièces d'or.
+Arc de la Précision Elfique :
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Effets : Augmente les dégâts de l'utilisateur de 40 points et augmente l'agilité de 10 points.
+Prix : 550 pièces d'or.
+...
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Montures Majestueuses (10)
+Gryphus Céleste :
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Effets : Permet à l'utilisateur de voler dans les airs pendant 1 heure.
+Prix : 800 pièces d'or.
+Cheval des Royaumes Libres :
 
-### `npm run eject`
+Effets : Augmente la vitesse de déplacement de l'utilisateur de 60%.
+Prix : 650 pièces d'or.
+...
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Page des Tendances de Vente
+Sur la page principale du magasin, vous trouverez une section des tendances de vente qui met en évidence les produits les plus populaires du moment, basés sur les ventes récentes. Vous pouvez également utiliser les filtres de recherche pour affiner votre sélection par type d'article, prix, etc., et découvrir de nouveaux trésors à ajouter à votre collection.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Potion de Force Colossale :
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Effets : Augmente la force de l'utilisateur de 30 points pendant 15 minutes.
+Prix : 100 pièces d'or.
+Élixir de Sagesse Infinie :
 
-## Learn More
+Effets : Augmente la sagesse de l'utilisateur de 20 points pendant 20 minutes.
+Prix : 150 pièces d'or.
+...
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Armures Époustouflantes
+Armure du Paladon Sacré :
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Effets : Augmente la défense de l'utilisateur de 60 points.
+Prix : 500 pièces d'or.
+Armure de l'Assassin Furtif :
 
-### Code Splitting
+Effets : Augmente la défense de l'utilisateur de 40 points et augmente l'agilité de 20 points.
+Prix : 450 pièces d'or.
+...
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Armes Formidables
+Épée de la Fureur Draconique :
 
-### Analyzing the Bundle Size
+Effets : Augmente les dégâts de l'utilisateur de 50 points.
+Prix : 600 pièces d'or.
+Arc de la Précision Elfique :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Effets : Augmente les dégâts de l'utilisateur de 40 points et augmente l'agilité de 10 points.
+Prix : 550 pièces d'or.
+...
 
-### Making a Progressive Web App
+Montures Majestueuses
+Gryphus Céleste :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Effets : Permet à l'utilisateur de voler dans les airs pendant 1 heure.
+Prix : 800 pièces d'or.
+Cheval des Royaumes Libres :
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Effets : Augmente la vitesse de déplacement de l'utilisateur de 60%.
+Prix : 650 pièces d'or.
