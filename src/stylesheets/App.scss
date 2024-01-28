@@ -1,54 +1,113 @@
+/* App.scss */
 .App-header {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-between;
+   
+    background-color: #212121;
+    color: #ffffff;
+    border-bottom: 2px solid #000000;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    height: 20rem;
+  }
+  
+  .App-logo-container {
+    display: flex;
+    align-items: center;
+  }
+  .App-logo {
+    height: 15rem;
+    width: 15rem;
+    
 }
+  
+  .headerButtons {
+    display: flex;
+  }
+  
+  .headerButtons Button {
+    margin-right: 10px;
+    background-color: #d89eff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
 
-.App-logo {
-    height: 10rem;
-    width: 10rem;
-}
-
-.App-title {
-    font-size: 1.5rem;
-}
-
-.container {
+  }
+  
+  .headerButtons Button:hover {
+    background-color: #9276f7;
+    color: white;
+  }
+  
+  .App-title {
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    flex: 1; 
+  }
+  
+  .container {
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: center;
-}
-
-.filter-section {
+  }
+  
+  .filter-section {
     display: flex;
     justify-content: space-between;
     gap: 1rem;
     align-items: center;
     margin-bottom: 5rem
-}
-
-
-.items {
-    height: 30rem;
-    margin-bottom: 2rem;
-    align-items: center;
-    justify-content: center;
-    display: flex;
+  }
+  
+  .availableItems {
+    text-decoration: underline;
+    font-size: 2rem;
+  }
+  
+  .items {
+    height: 3;    
+    background-color: rgb(216, 216, 216);
+    box-shadow: rgba(20, 12, 0, 0.35) 0px 5px 15px;
+    width: 90%;
+    transition: transform 0.3s ease;
+    display: flex; 
     flex-direction: column;
-    background-color: rgb(228, 228, 228);
-    box-shadow: 2px solid black;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: 2rem;
 }
 
+.items:hover {
+    transform: scale(1.05) rotateY(10deg);
+}
 
+.items .ant-card-head {
+    background-color: #eee;
+    border-bottom: 1px solid #ccc;
+}
 
+.items .ant-card-body {
+    padding: 20px;
+}
 
 .itemsImg {
     height: 10rem;
     display: block;
-    margin: 0 auto; /* Pour centrer horizontalement */
+    margin: 0 auto;
+}
 
+.video-container {
+    width: 100%;
+    max-height: 300px; 
+    overflow: hidden;
+    background-size: cover;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
 }

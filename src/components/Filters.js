@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const Filters = ({ onPriceFilterChange, onCategoryFilterChange, priceFilter }) => {
+const Filters = ({ onEffectFilterChange ,onPriceFilterChange, onCategoryFilterChange, priceFilter }) => {
     return (
         <div className="container">
             <div className="filter-section">
@@ -23,10 +23,22 @@ const Filters = ({ onPriceFilterChange, onCategoryFilterChange, priceFilter }) =
                     onChange={onCategoryFilterChange}
                 >
                     <option value="all">Toutes</option>
-                    <option value="armes">armes</option>
-                    <option value="armures">armures</option>
-                    <option value="potions">potions</option>
-                    <option value="montures">montures</option>
+                    <option value="armes">Armes</option>
+                    <option value="armures">Armures</option>
+                    <option value="potions">Potions</option>
+                    <option value="montures">Montures</option>
+                </select>
+
+                <div className="filter-label">Filtrer par effets :</div>
+                <select
+                    className="filter-select"
+               
+                    onChange={onEffectFilterChange}
+                >
+                    <option value="all">Tous</option>
+                    <option value="oui">Effets</option>
+                    <option value="non">Sans effets</option>
+
                 </select>
             </div>
         </div>
