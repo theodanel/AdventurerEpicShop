@@ -1,0 +1,54 @@
+.App-header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.App-logo {
+    height: 10rem;
+    width: 10rem;
+}
+
+.App-title {
+    font-size: 1.5rem;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.filter-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 5rem
+}
+
+
+.items {
+    height: 30rem;
+    margin-bottom: 2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(228, 228, 228);
+    box-shadow: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+
+
+.itemsImg {
+    height: 10rem;
+    display: block;
+    margin: 0 auto; /* Pour centrer horizontalement */
+
+}
