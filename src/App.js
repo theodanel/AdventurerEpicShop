@@ -16,10 +16,12 @@ const App = () => {
 
     const handlePriceFilterChange = (event) => {
         setPriceFilter(Number(event.target.value));
+        setItemsState(filteredItems)
     };
-      
+
     const handleCategoryFilterChange = (event) => {
         setCategoryFilter(event.target.value);
+        setItemsState(filteredItems)
     };
 
     const filteredItems = itemsState.filter((item) => {
@@ -40,7 +42,8 @@ const App = () => {
         }
         
         return item.bestsale;
-    });
+    }
+    );
 
     const items = filteredItems.map(item => {
         let imgItem = null;
@@ -58,11 +61,11 @@ const App = () => {
 
 
 
-        let effectsItem = null; 
+        let effectsItem = null;
         if (item.effects) {
-          effectsItem = <h4>Effets: {item.effects}</h4>; 
+            effectsItem = <h4>Effets: {item.effects}</h4>;
         } else {
-            effectsItem = <h4>Aucun effet</h4>; 
+            effectsItem = <h4>Aucun effet</h4>;
         }
         return (
             <Fragment>
@@ -73,7 +76,7 @@ const App = () => {
                             <h4>Description: {item.description}</h4>
                             <h4>{effectsItem}</h4>
                             <div className='image-container'>
-                            {imgItem}
+                                {imgItem}
                             </div>
                         </div>
                     </Card>
@@ -86,13 +89,19 @@ const App = () => {
         <div className="App">
             <Header />
             <h2 className='availableItems'>LES TENDANCES CHEZ LES AVENTURIERS !</h2>
-    <video autoPlay muted loop src={`${process.env.PUBLIC_URL}/spring_days.mp4`} style={{ width: '100%', height: 'auto' }}></video>
+            <div className="video-container">
+                <div>
+                    <video autoPlay muted loop src={`${process.env.PUBLIC_URL}/spring_days.mp4`} />
+                </div>
+            </div>
+
             <div className="content">
                 <div className="itemsList">
                 <div className="video-container">
+    <video autoPlay muted loop src={`${process.env.PUBLIC_URL}/spring_days.mp4`} style={{ width: '100%', height: 'auto' }}></video>
 </div>
                     <Filters className="Filters" onPriceFilterChange={handlePriceFilterChange} onCategoryFilterChange={handleCategoryFilterChange} />
-                    <Row gutter={16}>
+                    <Row gutter={20}>
                         {items}
                     </Row>
                 </div>
