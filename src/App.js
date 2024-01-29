@@ -97,9 +97,8 @@ const App = () => {
 
             <div className="content">
                 <div className="itemsList">
-                <div className="video-container">
-    <video autoPlay muted loop src={`${process.env.PUBLIC_URL}/spring_days.mp4`} style={{ width: '100%', height: 'auto' }}></video>
-</div>
+                
+
                     <Filters className="Filters" onPriceFilterChange={handlePriceFilterChange} onCategoryFilterChange={handleCategoryFilterChange} />
                     <Row gutter={20}>
                         {items}
